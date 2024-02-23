@@ -1,0 +1,18 @@
+name: platform_information_platform_interface
+description: "A common platform interface for the platform_information plugin."
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: '>=3.2.5 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.1.8
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
