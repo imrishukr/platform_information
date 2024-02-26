@@ -1,5 +1,7 @@
 Federated plugins are a way of splitting support for different platforms into separate packages. So, a federated plugin can use one package for iOS, another for Android, another for web, and yet another for a car (as an example of an IoT device). Among other benefits, this approach allows a domain expert to extend an existing plugin to work for the platform they know best.
 
+<img src="https://github.com/imrishukr/platform_information/assets/122599296/68bb5a41-8368-4764-84f6-c3b28062593e" alt="architecture federated plugins" width="700" height="400">
+
 A federated plugin requires the following packages:
 
 ### app-facing package
@@ -21,6 +23,9 @@ For example, say you write a foobar_windows implementation for the (imaginary) f
 
 ### Non-endorsed federated plugin
 If you can’t, for whatever reason, get your implementation added by the original plugin author, then your plugin is not endorsed. A developer can still use your implementation, but must manually add the plugin to the app’s pubspec file. So, the developer must include both the foobar dependency and the foobar_windows dependency to achieve full functionality.
+
+<img src="https://github.com/imrishukr/platform_information/assets/122599296/bad1a254-9690-4ef9-8393-d51e9392b802" alt="Screenshot 2024-02-23 183202" width="600" height="400">
+<img src="https://github.com/imrishukr/platform_information/assets/122599296/4f6247e7-3a2f-4bd1-a5d3-b029c4c36db4" alt="Screenshot_1708693186" width="300" height="600">
 
 ### References:
 [Developing packages & plugins](https://docs.flutter.dev/packages-and-plugins/developing-packages)
